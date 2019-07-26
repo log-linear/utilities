@@ -22,8 +22,8 @@ else
     if [ ! -f ./etc/conda/deactivate.d/env_vars.sh ]; then
         echo "Creating ${CONDA_PREFIX}/etc/conda/deactivate.d/env_vars.sh"
         mkdir -p ./etc/conda/deactivate.d
-        echo '#!/bin/sh' > ./etc/conda/deactivate.d/env_vars.sh        
         touch ./etc/conda/deactivate.d/env_vars.sh
+        echo '#!/bin/sh' > ./etc/conda/deactivate.d/env_vars.sh                
     fi
     
     echo "export ${1}=${2}" >> ./etc/conda/activate.d/env_vars.sh
