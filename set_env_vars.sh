@@ -1,8 +1,9 @@
+#!/bin/bash
 # Script to set a custom environmental variable within a conda environment
 #
 # Usage:
 #
-# ./set_conda_env_var.sh VARIABLE VALUE
+# ./set_env_var.sh VARIABLE VALUE
 #
 # Repeat as necessary for each variable
 if [ ! $# -eq 2 ]; then
