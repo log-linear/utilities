@@ -13,7 +13,7 @@ sudo apt-get install neofetch
 git clone https://gitlab.com/y_hat/dotfiles.git
 mv -r dotfiles/* ~/
 rm -r dotfiles
-source .bashrc
-source .bash_aliases
-source .profile
-source .selected_editor
+source ~/.bashrc
+source ~/.config/.bash_aliases
+source ~/.profile
+source ~/.selected_editor
