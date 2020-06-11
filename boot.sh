@@ -12,7 +12,6 @@ sudo apt-get install neofetch
 # Pull dotfiles
 git clone https://gitlab.com/y_hat/dotfiles.git
 mv -r dotfiles/* ~/
-rm -r dotfiles
 source ~/.bashrc
 source ~/.config/.bash_aliases
 source ~/.profile
